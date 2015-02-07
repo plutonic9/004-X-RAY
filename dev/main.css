@@ -1,0 +1,165 @@
+/* body css stuff, reasonably common to all pages */
+
+html {
+	height: 100%;
+	background: linear-gradient(to bottom, #7e7e7e,#0e0e0e) no-repeat;
+}
+
+body {
+	font-family: "Franklin Gothic", "Palatino", sans-serif;
+	font-style: normal;	
+}
+
+header {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0px;
+	padding: 5px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+nav {
+	border-style: none;
+	border-width: 2px;
+	border-color: black;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+section {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 20px;
+	padding-left: 50px;
+	color: #dddddd;
+}
+
+/* Dungeon Crawl - example 1 stuff */
+
+.pictures-example1 img:not(#door-example1) {
+	position:  absolute;
+	left: 460px;
+	top: 160px;
+	opacity: 1.0;
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#door-example1 {
+	position:  absolute;
+	left: 892px;
+	top: 408px;
+	opacity: 1.0;
+	transition: opacity 2s ease-in;
+}
+
+#door-example1:hover {
+	opacity: 0.0;
+}
+
+/* Dungeon Crawl - example 2 stuff */
+
+.pictures-example2 img:not(#door-example2) {
+	position:  absolute;
+	left: 460px;
+	top: 160px;
+	opacity: 1.0;
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#door-example2 {
+	position:  absolute;
+	left: 852px;
+	top: 387px;
+	opacity: 1.0;
+	transition: opacity .5s ease-in;
+}
+
+#door-example2:hover {
+	opacity: 0.0;
+}
+
+/* Burning Building stuff */
+
+.burningBuilding img:not(#burningBuilding-door) {
+	position:  absolute;
+	left: 460px;
+	top: 160px;
+	opacity: 1.0;
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#burningBuilding-door {
+	position:  absolute;
+	left: 670px;
+	top: 510px;
+	opacity: 1.0;
+	transition: opacity 1s ease-in;
+}
+
+#burningBuilding-door:hover {
+	opacity: 0.0;
+}
+
+/* text caption at bottom of pictures */
+
+.pictureCaption {
+	position: absolute;
+	left: 710px;
+	top: 760px;
+	}
+
+.pictureCaption h3 {
+	color: #ddddff;
+	font-size: 24px;
+	line-height: 10px;
+}
+
+.pictureCaption h3::first-letter {
+	font-size: 36px;
+	color: white;
+}
+
+/* title in upper-left corner of pictures */
+
+.title {
+	position: absolute;
+	left: 480px;
+	top: 180px;
+	}
+
+.title h3 {
+	color: #ddddff;
+	font-size: 16px;
+	line-height: 10px;
+}
+
+.title h3::first-letter {
+	font-size: 24px;
+	color: white;
+}
+

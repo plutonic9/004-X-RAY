@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+	<title>X-RAY</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<header>
+		
+		<h1>X-RAY!</h1>
+
+		<nav>
+			<a href="index.html">HOME PAGE</a> ~
+			<a href="dungeonCrawl1.html">Dungeon Crawl - example #1</a> |
+			<a href="dungeonCrawl2.html">Dungeon Crawl - example #2</a> |
+			<a href="burningBuilding.html">Burning Building</a> 
+		</nav>
+
+	</header>
+
+	<section>
+		<h1>ABOUT</h1>
+		<br>
+		<ul>
+			<li>All pages expect at HD browser res (ie. 1920x1080 or more).</li>
+		<br>
+			<li>I wanted to see what use -hover- could be in revealing info....</li>
+		<br>
+		<ol>
+			<li>This could be useful in an online 'point and click' dungeon crawl game.  I know it would be implemented better, more efficient.</li>
+			<li>There are three layers of images:</li>
+				<ul>
+					<li>Background image, of gold, monster, whatever</li>
+					<li>Foregound image, which covers the background completely, except for some 'cutouts' (transparent areas) that you will want so display the background through</li>
+					<li>the 'doors' or 'windows', which cover the 'cutouts' of the foreground image.  These will get -hover- and -opacity- settings to allow them to show the background through when user hovers over them.</li>
+				</ul>
+		</ol>
+		<br>
+
+		<li>The Good</li>
+		<ol>
+			<li>Images and backgrounds, etc worked out fine.</li>
+			<li>Figured out how to use -html- in css to affect background, etc (should I be doing this?)</li>
+			<li>Learned about transitions, transforms, etc</li>
+			<li>Started using -html5- document conventions (ie. header, nav, section, etc).  Still don't see big deal over -div-, but will figure it out.</li>
+		</ol>
+		<br>
+
+		<li>The Bad</li>
+		<ol>
+			<li>Still Boring, boring.  But better than making links glow or something</li>
+			<li>Pages are static</li>
+			<li>All positions are -absolute-.  I still cannot figure out how to have the images float in middle, and still position other images and text over them properly.  So I made it all -absolute-.  Sigh.</li>
+			<li>Still using -css selectors- in a very rudimentary way.  Trying to get away from just .class and #id ing everything, but..</li>
+			<li>I wanted to have the 'monster' in example #2 scale up when the hovering - so it would be both appearing and growing at same time.  Couldn't figure that out.  Problem is that I am affecting the backgound image while hovering over another image (the door) - this was a problem on last project too, having a -hover- affect a different object.</li>
+			<li>I wanted to have sound play at different points - ie. *roar* when moster appeared, *fire* sounds for the building, etc.  Couldn't figure that out with just -html/css-.  Looks like you need javascript for that.</li>
+		</ol>
+				
+	</section>
+
+</body>
+
+
+	
