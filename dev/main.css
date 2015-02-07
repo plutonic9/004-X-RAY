@@ -35,6 +35,12 @@ nav {
 	text-align: center;
 }
 
+nav li {
+	display: inline;
+	color: #333333;
+}
+
+
 section {
 	border-style: solid;
 	border-width: 2px;
